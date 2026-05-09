@@ -1,0 +1,25 @@
+1. Antenna joylashuvini qayerdan topish mumkin?
+Eng qulay bepul saytlar:
+
+opensignal.com — xaritada antenna va signal kuchini ko'rsatadi
+cellmapper.net — aniq antenna koordinatlari, Farg'ona uchun ham bor
+networkcoverage.uz — O'zbekiston operatorlarining qamrov xaritasi
+
+Cellmapper.net da: texnologiyani (4G/LTE) va operatorni (Ucell, Beeline, uzmobile) tanlang → xaritada eng yaqin antennani bosing → masofa chiqadi.
+
+2. Bino zichligi ma'lumoti
+Buni ko'z bilan baholash kifoya — aniq raqam kerak emas:
+
+Bozor, shifoxona, ko'p qavatli binolar atrofi → 0.6–0.8
+Oddiy mahalla, 2-5 qavatli uylar → 0.3–0.5
+Hovli uylar, ochiq maydon → 0.1–0.2
+
+Yoki Google Maps da o'z joyingizni "Satellite" rejimda ko'ring — binolar qanchalik zich ekanini ko'rasiz.
+
+3. 5G haqida
+To'g'ri aytasiz — markaz, shifoxona, bozor hududlarida 5G tanlang, qolgan joylarda 4G.
+
+4. Qolgan o'lchashlар
+Hozircha dasturda faqat antenna masofasi va bino zichligi qo'lda kiritiladi. Lekin eng aniq natija uchun:
+Telefoningizda *#*#4636#*#* tering → Phone information → Signal strength — u yerda RSRP qiymati ko'rinadi (masalan -85 dBm). Shu raqamni dasturning "Android RSRP" maydoniga kiriting → Qo'llan bosing.
+Bu holda dastur hisob-kitobni real signal asosida qiladi — eng ishonchli natija.
